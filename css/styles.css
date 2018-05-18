@@ -1,0 +1,194 @@
+/* ###################### */
+/* GENERAL STYLES */
+/* ###################### */
+
+hr {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border:0;
+  border=top: 3px solid #2FC484;
+}
+
+/* ###################### */
+/* NAVBAR*/
+/* ###################### */
+
+.bg-ABC-green{
+  background-color: #24C785;
+}
+
+.navbar-dark .navbar-nav .nav-link{
+  color: #fff;
+}
+
+/* ###################### */
+/* JUMBOTRON */
+/* ###################### */
+
+.jumbotron{
+  background-image: url("../images/jumbotron.jpg");
+  background-repeat:no-repeat;
+  background-size: cover;
+}
+
+.mb-25{
+  margin-bottom: 25rem;
+}
+
+/* .mt-10{
+  margin-bottom: 25rem;
+} */
+
+.display-4{
+  color: white;
+  font-size: 3rem;
+  font-family: Futura;
+}
+
+.lead{
+  color: white;
+  letter-spacing: 3px;
+  font-size: 1rem;
+  font-family: Futura;
+}
+
+/* .p-jumbo{
+  color: white;
+  font-size: 1rem;
+  font-family: Futura;
+} */
+
+.btn-jumbo{
+  color: #2FC484;
+  background-color: #fff;
+  border-color: #fff;
+  font-size: 1rem;
+  font-family: Futura;
+  letter-spacing: .2rem;
+}
+/* ############# */
+/* end jumbotron */
+/* ############# */
+
+/* .row{
+  min-height: 200px;
+} */
+/* .margin-top-colomn{
+  margin-top: -10rem;
+} */
+
+.display-4{
+  color: white;
+  font-family: futura; sans-serif;
+  font-size: 3rem;
+}
+.lead{
+  color: white;
+  font-family: futura; sans-serif;
+  letter-spacing: 8px;
+}
+.btn-light{
+  color: #2FC484;
+  background-color: #fff;
+  border-color: #fff;
+  letter-spacing: 6px;
+}
+h1{
+  font-family: futura;
+  font-size: 3rem;
+  font-weight: bolder;
+}
+h2{
+  font-family: futura;
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 3rem;
+}
+p{
+  font-family: arial, sans-serif;
+  font-size: 1.5rem;
+  font-weight: light;
+}
+.name{
+  font-family: arial, sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* ############# */
+/* Row-6 CAROUSEL */
+/* ############# */
+.bg-gray{
+  background-color: #f3f3f3;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 100px;
+  width: 100px;
+  outline: black;
+  background-size: 100%, 100%;
+  background-image: none;
+}
+
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 55px;
+  color: #2FC484;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 55px;
+  color: #2FC484;
+}
+
+.carousel-indicators .active {
+    background-color: #2FC484;
+}
+
+.carousel-indicators li {
+    background-color: #888;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.btn-my-success {
+    color: #fff;
+    background-color: #2FC484;
+    border-color: #2FC484;
+    font-size: 2rem;
+}
+
+.testimonial-text{
+  height: 280px;
+}
+
+/* ############# */
+/* Footer */
+/* ############# */
+.fab{
+  font-size: 3rem;
+  /* color: white; */
+  border: 3px solid white;
+  border-radius: 50%;
+  width: 70px;
+}
+
+
+.row-footer {
+  background-color: #2FC484;
+}
+.row-footer a{
+  color: white;
+}
+.row-footer a:hover{
+  color: gray;
+}
+.row-footer a:active{
+  color: yellow;
+}
+.row-footer a:visited{
+  color: gray;
+}
